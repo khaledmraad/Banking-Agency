@@ -8,5 +8,8 @@ int main(){
     EBank* b=EBank::getInstance("this is our second EBank"); //won't work
 
 
+    cout<<e->getValue()<<"\n";
+    cout<<b->getValue()<<"\n";
+
     return 0;
 }
