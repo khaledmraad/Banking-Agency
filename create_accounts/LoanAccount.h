@@ -1,6 +1,3 @@
-
-
-
 #ifndef _LOANACCOUNT_H
 #define _LOANACCOUNT_H
 

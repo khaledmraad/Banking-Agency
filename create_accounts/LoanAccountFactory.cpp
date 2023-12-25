@@ -1,6 +1,3 @@
-
-
-
 #include "LoanAccountFactory.h"
 
 Account LoanAccountFactory::createAccount() {

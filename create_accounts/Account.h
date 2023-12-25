@@ -1,23 +1,23 @@
-
-
-
 #ifndef _ACCOUNT_H
 #define _ACCOUNT_H
+
+#include <vector>
+#include <string>
+
 
 class Account {
 public: 
     
-flot checkDeposite();
+virtual float checkDeposite() const =0;
     
-list checkHistory();
+virtual std::vector<std::vector<std::string>> checkHistory() const=0;
     
 
-void withdraw(float moneyAmout);
+virtual void withdraw(float moneyAmout) =0;
     
-/**
- * @param moneyAmout
- */
-void deposite(float moneyAmout);
+
+virtual void deposite(float moneyAmout) =0;
+
 };
 
 #endif
