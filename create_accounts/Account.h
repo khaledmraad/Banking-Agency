@@ -11,9 +11,7 @@ flot checkDeposite();
     
 list checkHistory();
     
-/**
- * @param moneyAmout
- */
+
 void withdraw(float moneyAmout);
     
 /**
@@ -22,4 +20,4 @@ void withdraw(float moneyAmout);
 void deposite(float moneyAmout);
 };
 
-#endif //_ACCOUNT_H
+#endif
