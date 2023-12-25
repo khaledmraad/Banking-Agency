@@ -1,6 +1,4 @@
-/**
- * Project Untitled
- */
+
 
 
 #ifndef _SAVINGSACCOUNT_H
@@ -12,4 +10,4 @@
 class SavingsAccount: public Account {
 };
 
-#endif //_SAVINGSACCOUNT_H
+#endif 

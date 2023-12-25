@@ -1,6 +1,4 @@
-/**
- * Project Untitled
- */
+
 
 
 #ifndef _LOANACCOUNTFACTORY_H
@@ -15,4 +13,4 @@ public:
 Account createAccount();
 };
 
-#endif //_LOANACCOUNTFACTORY_H
+#endif 

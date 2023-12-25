@@ -1,6 +1,4 @@
-/**
- * Project Untitled
- */
+
 
 
 #ifndef _SAVINGSACCOUNTFACTORY_H
@@ -15,4 +13,4 @@ public:
 Account createAccount();
 };
 
-#endif //_SAVINGSACCOUNTFACTORY_H
+#endif 
